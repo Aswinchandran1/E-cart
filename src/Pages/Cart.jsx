@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom'
 const Cart = () => {
   return (
     <>
-      <Header />
-      <div style={{ paddingTop: '100px' }} className="px-5">
+      <Header/>
+      <div style={{ paddingTop: '100px' }} className="px-5 min-h-screen ">
         <>
           <h1 className="text-5xl font-bold text-blue-600">Cart Summary</h1>
           <div className="grid grid-cols-3 gap-4 mt-5">
